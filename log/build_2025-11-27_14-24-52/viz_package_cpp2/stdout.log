@@ -1,0 +1,42 @@
+[ 42%] Built target viz_node
+[ 42%] Built target circle_control_node
+[ 42%] Built target ps2_joy_node
+[ 57%] Built target move_node
+[ 71%] Built target wheel_publisher
+[ 85%] Built target wheel_subscriber
+[100%] Built target ps2_control_node
+-- Install configuration: ""
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/viz_node
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/move_node
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/circle_control_node
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_joy_node
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_control_node
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_publisher
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_subscriber
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_move_paquito.py
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_ps2_paquito.py
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_ps2.py
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch.py
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_bridge.py
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_paquito.py
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf/paquito.urdf
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf/robot.urdf
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/rviz
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/rviz/panel.rviz
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/package_run_dependencies/viz_package_cpp2
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/parent_prefix_path/viz_package_cpp2
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/path.sh
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/path.dsv
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.bash
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.sh
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.zsh
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.dsv
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/package.dsv
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/packages/viz_package_cpp2
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/cmake/viz_package_cpp2Config.cmake
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/cmake/viz_package_cpp2Config-version.cmake
+-- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/package.xml

@@ -1,0 +1,57 @@
+[  7%] [32mBuilding CXX object CMakeFiles/move_node.dir/src/move_node.cpp.o[0m
+[ 21%] Built target viz_node
+[ 35%] Built target ps2_joy_node
+[ 50%] Built target circle_control_node
+[ 57%] [32mBuilding CXX object CMakeFiles/ps2_control_node.dir/src/ps2_control_node.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/wheel_publisher.dir/src/wheel_velocity_publisher.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/wheel_subscriber.dir/src/wheel_velocity_subscriber.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable wheel_subscriber[0m
+[ 85%] [32m[1mLinking CXX executable ps2_control_node[0m
+[ 85%] Built target wheel_subscriber
+[ 85%] Built target ps2_control_node
+[ 92%] [32m[1mLinking CXX executable wheel_publisher[0m
+[ 92%] Built target wheel_publisher
+[100%] [32m[1mLinking CXX executable move_node[0m
+[100%] Built target move_node
+-- Install configuration: ""
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/viz_node
+-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/viz_node" to ""
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/move_node
+-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/move_node" to ""
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/circle_control_node
+-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/circle_control_node" to ""
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_joy_node
+-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_joy_node" to ""
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_control_node
+-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_control_node" to ""
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_publisher
+-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_publisher" to ""
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_subscriber
+-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_subscriber" to ""
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_move_paquito.py
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_ps2_paquito.py
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_ps2.py
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch.py
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_bridge.py
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_paquito.py
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf/paquito.urdf
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf/robot.urdf
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/rviz
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/rviz/panel.rviz
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/package_run_dependencies/viz_package_cpp2
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/parent_prefix_path/viz_package_cpp2
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/ament_prefix_path.sh
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/ament_prefix_path.dsv
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/path.sh
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/path.dsv
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.bash
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.sh
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.zsh
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.dsv
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/package.dsv
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/packages/viz_package_cpp2
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/cmake/viz_package_cpp2Config.cmake
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/cmake/viz_package_cpp2Config-version.cmake
+-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/package.xml

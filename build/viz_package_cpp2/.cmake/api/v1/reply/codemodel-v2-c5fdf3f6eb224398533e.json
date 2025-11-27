@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8289f0825762d9fe252e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "viz_package_cpp2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "circle_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-circle_control_node-4468b413b9ab91dc5ece.json",
+					"name" : "circle_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_node-998ad532a337670867a5.json",
+					"name" : "move_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ps2_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ps2_control_node-c84948c0644dfb26aaa9.json",
+					"name" : "ps2_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ps2_joy_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ps2_joy_node-b11e6dabff745c5d9007.json",
+					"name" : "ps2_joy_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-58ff110c0dbad51df847.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "viz_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-viz_node-da34a42fbe3f58342243.json",
+					"name" : "viz_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "viz_package_cpp2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-viz_package_cpp2_uninstall-e938fd4f3d6a8066805b.json",
+					"name" : "viz_package_cpp2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheel_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheel_publisher-e744814f1735cec53909.json",
+					"name" : "wheel_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheel_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheel_subscriber-4bbfc903131b94c7f1a3.json",
+					"name" : "wheel_subscriber",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2",
+		"source" : "/home/maximiliano/ROS/prueba_proyecto/src/proyecto-robotica/viz_package_cpp2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,46 @@
+[0.034s] Invoking command in '/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2 -- -j4 -l4
+[0.407s] [ 42%] Built target viz_node
+[0.408s] [ 42%] Built target circle_control_node
+[0.408s] [ 42%] Built target ps2_joy_node
+[0.408s] [ 57%] Built target move_node
+[0.477s] [ 71%] Built target wheel_publisher
+[0.495s] [ 85%] Built target wheel_subscriber
+[0.496s] [100%] Built target ps2_control_node
+[0.523s] Invoked command in '/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2 -- -j4 -l4
+[0.545s] Invoking command in '/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2
+[0.563s] -- Install configuration: ""
+[0.566s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/viz_node
+[0.568s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/move_node
+[0.570s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/circle_control_node
+[0.572s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_joy_node
+[0.574s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_control_node
+[0.576s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_publisher
+[0.578s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_subscriber
+[0.579s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch
+[0.580s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_move_paquito.py
+[0.580s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_ps2_paquito.py
+[0.580s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_ps2.py
+[0.581s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch.py
+[0.581s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_bridge.py
+[0.582s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_paquito.py
+[0.582s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf
+[0.583s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf/paquito.urdf
+[0.583s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf/robot.urdf
+[0.583s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/rviz
+[0.583s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/rviz/panel.rviz
+[0.584s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/package_run_dependencies/viz_package_cpp2
+[0.584s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/parent_prefix_path/viz_package_cpp2
+[0.584s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/ament_prefix_path.sh
+[0.585s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/ament_prefix_path.dsv
+[0.585s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/path.sh
+[0.586s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/path.dsv
+[0.586s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.bash
+[0.586s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.sh
+[0.587s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.zsh
+[0.587s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.dsv
+[0.587s] -- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/package.dsv
+[0.587s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/packages/viz_package_cpp2
+[0.588s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/cmake/viz_package_cpp2Config.cmake
+[0.589s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/cmake/viz_package_cpp2Config-version.cmake
+[0.589s] -- Up-to-date: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/package.xml
+[0.590s] Invoked command in '/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2

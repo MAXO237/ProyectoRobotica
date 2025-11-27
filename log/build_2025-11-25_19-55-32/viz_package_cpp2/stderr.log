@@ -1,0 +1,8 @@
+[01m[K/home/maximiliano/ROS/prueba_proyecto/src/proyecto-robotica/viz_package_cpp2/src/move_node.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/transform_broadcaster.hpp: No existe el archivo o el directorio
+   13 | #include [01;31m[K<tf2_ros/transform_broadcaster.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/move_node.dir/build.make:76: CMakeFiles/move_node.dir/src/move_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:175: CMakeFiles/move_node.dir/all] Error 2
+gmake[1]: *** Se espera a que terminen otras tareas....
+gmake: *** [Makefile:146: all] Error 2

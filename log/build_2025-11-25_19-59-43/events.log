@@ -1,0 +1,412 @@
+[0.000000] (-) TimerEvent: {}
+[0.000443] (viz_package_cpp2) JobQueued: {'identifier': 'viz_package_cpp2', 'dependencies': OrderedDict()}
+[0.000543] (viz_package_cpp2) JobStarted: {'identifier': 'viz_package_cpp2'}
+[0.020007] (viz_package_cpp2) JobProgress: {'identifier': 'viz_package_cpp2', 'progress': 'cmake'}
+[0.022347] (viz_package_cpp2) JobProgress: {'identifier': 'viz_package_cpp2', 'progress': 'build'}
+[0.023977] (viz_package_cpp2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2', '--', '-j4', '-l4'], 'cwd': '/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maximiliano', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/maximiliano', 'OLDPWD': '/home/maximiliano/ROS/prueba_proyecto/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2642', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=df71ffc24f4127e064368b9b692628eb', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'maximiliano', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maximiliano', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/maximiliano/.cabal/bin:/home/maximiliano/.ghcup/bin:/home/maximiliano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/maximiliano-ThinkPad-T460s:@/tmp/.ICE-unix/2642,unix/maximiliano-ThinkPad-T460s:/tmp/.ICE-unix/2642', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bc8e578b_a193_4a83_95fe_eb563790d8a7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8NUCG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.236', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=df71ffc24f4127e064368b9b692628eb', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099778] (-) TimerEvent: {}
+[0.160444] (viz_package_cpp2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/move_node.dir/src/move_node.cpp.o\x1b[0m\n'}
+[0.184636] (viz_package_cpp2) StdoutLine: {'line': b'[ 21%] Built target viz_node\n'}
+[0.199912] (-) TimerEvent: {}
+[0.209626] (viz_package_cpp2) StdoutLine: {'line': b'[ 35%] Built target ps2_joy_node\n'}
+[0.252349] (viz_package_cpp2) StdoutLine: {'line': b'[ 50%] Built target circle_control_node\n'}
+[0.286371] (viz_package_cpp2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ps2_control_node.dir/src/ps2_control_node.cpp.o\x1b[0m\n'}
+[0.300218] (-) TimerEvent: {}
+[0.330499] (viz_package_cpp2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/wheel_publisher.dir/src/wheel_velocity_publisher.cpp.o\x1b[0m\n'}
+[0.369316] (viz_package_cpp2) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/wheel_subscriber.dir/src/wheel_velocity_subscriber.cpp.o\x1b[0m\n'}
+[0.400304] (-) TimerEvent: {}
+[0.501348] (-) TimerEvent: {}
+[0.602715] (-) TimerEvent: {}
+[0.703215] (-) TimerEvent: {}
+[0.803689] (-) TimerEvent: {}
+[0.907472] (-) TimerEvent: {}
+[1.007971] (-) TimerEvent: {}
+[1.108396] (-) TimerEvent: {}
+[1.211460] (-) TimerEvent: {}
+[1.311885] (-) TimerEvent: {}
+[1.415462] (-) TimerEvent: {}
+[1.517549] (-) TimerEvent: {}
+[1.618022] (-) TimerEvent: {}
+[1.718473] (-) TimerEvent: {}
+[1.819282] (-) TimerEvent: {}
+[1.924472] (-) TimerEvent: {}
+[2.024905] (-) TimerEvent: {}
+[2.125397] (-) TimerEvent: {}
+[2.225849] (-) TimerEvent: {}
+[2.326388] (-) TimerEvent: {}
+[2.429503] (-) TimerEvent: {}
+[2.529976] (-) TimerEvent: {}
+[2.630428] (-) TimerEvent: {}
+[2.731299] (-) TimerEvent: {}
+[2.832295] (-) TimerEvent: {}
+[2.932777] (-) TimerEvent: {}
+[3.033269] (-) TimerEvent: {}
+[3.133727] (-) TimerEvent: {}
+[3.235310] (-) TimerEvent: {}
+[3.335796] (-) TimerEvent: {}
+[3.436297] (-) TimerEvent: {}
+[3.537315] (-) TimerEvent: {}
+[3.637766] (-) TimerEvent: {}
+[3.738292] (-) TimerEvent: {}
+[3.838783] (-) TimerEvent: {}
+[3.939297] (-) TimerEvent: {}
+[4.039792] (-) TimerEvent: {}
+[4.140286] (-) TimerEvent: {}
+[4.241294] (-) TimerEvent: {}
+[4.341801] (-) TimerEvent: {}
+[4.442295] (-) TimerEvent: {}
+[4.543298] (-) TimerEvent: {}
+[4.643761] (-) TimerEvent: {}
+[4.744299] (-) TimerEvent: {}
+[4.844777] (-) TimerEvent: {}
+[4.945270] (-) TimerEvent: {}
+[5.045721] (-) TimerEvent: {}
+[5.146226] (-) TimerEvent: {}
+[5.246723] (-) TimerEvent: {}
+[5.347186] (-) TimerEvent: {}
+[5.449545] (-) TimerEvent: {}
+[5.550413] (-) TimerEvent: {}
+[5.653519] (-) TimerEvent: {}
+[5.754018] (-) TimerEvent: {}
+[5.858496] (-) TimerEvent: {}
+[5.958975] (-) TimerEvent: {}
+[6.062700] (-) TimerEvent: {}
+[6.163251] (-) TimerEvent: {}
+[6.264059] (-) TimerEvent: {}
+[6.364922] (-) TimerEvent: {}
+[6.470528] (-) TimerEvent: {}
+[6.578742] (-) TimerEvent: {}
+[6.680316] (-) TimerEvent: {}
+[6.780827] (-) TimerEvent: {}
+[6.883521] (-) TimerEvent: {}
+[6.984310] (-) TimerEvent: {}
+[7.088494] (-) TimerEvent: {}
+[7.191505] (-) TimerEvent: {}
+[7.291993] (-) TimerEvent: {}
+[7.395439] (-) TimerEvent: {}
+[7.495951] (-) TimerEvent: {}
+[7.600824] (-) TimerEvent: {}
+[7.701630] (-) TimerEvent: {}
+[7.802458] (-) TimerEvent: {}
+[7.904709] (-) TimerEvent: {}
+[8.005554] (-) TimerEvent: {}
+[8.108729] (-) TimerEvent: {}
+[8.212508] (-) TimerEvent: {}
+[8.313021] (-) TimerEvent: {}
+[8.413542] (-) TimerEvent: {}
+[8.517496] (-) TimerEvent: {}
+[8.618318] (-) TimerEvent: {}
+[8.721557] (-) TimerEvent: {}
+[8.825809] (-) TimerEvent: {}
+[8.928798] (-) TimerEvent: {}
+[9.029670] (-) TimerEvent: {}
+[9.134509] (-) TimerEvent: {}
+[9.235024] (-) TimerEvent: {}
+[9.335573] (-) TimerEvent: {}
+[9.437298] (-) TimerEvent: {}
+[9.538157] (-) TimerEvent: {}
+[9.641499] (-) TimerEvent: {}
+[9.744505] (-) TimerEvent: {}
+[9.845027] (-) TimerEvent: {}
+[9.948741] (-) TimerEvent: {}
+[10.049563] (-) TimerEvent: {}
+[10.150412] (-) TimerEvent: {}
+[10.253714] (-) TimerEvent: {}
+[10.354226] (-) TimerEvent: {}
+[10.455024] (-) TimerEvent: {}
+[10.556487] (-) TimerEvent: {}
+[10.659758] (-) TimerEvent: {}
+[10.760600] (-) TimerEvent: {}
+[10.864539] (-) TimerEvent: {}
+[10.965050] (-) TimerEvent: {}
+[11.065848] (-) TimerEvent: {}
+[11.169695] (-) TimerEvent: {}
+[11.270230] (-) TimerEvent: {}
+[11.373497] (-) TimerEvent: {}
+[11.473987] (-) TimerEvent: {}
+[11.577722] (-) TimerEvent: {}
+[11.680773] (-) TimerEvent: {}
+[11.782292] (-) TimerEvent: {}
+[11.883064] (-) TimerEvent: {}
+[11.987836] (-) TimerEvent: {}
+[12.090394] (-) TimerEvent: {}
+[12.191304] (-) TimerEvent: {}
+[12.292526] (-) TimerEvent: {}
+[12.395859] (-) TimerEvent: {}
+[12.496424] (-) TimerEvent: {}
+[12.596939] (-) TimerEvent: {}
+[12.697900] (-) TimerEvent: {}
+[12.799909] (-) TimerEvent: {}
+[12.901612] (-) TimerEvent: {}
+[13.004712] (-) TimerEvent: {}
+[13.107113] (-) TimerEvent: {}
+[13.207938] (-) TimerEvent: {}
+[13.308623] (-) TimerEvent: {}
+[13.411690] (-) TimerEvent: {}
+[13.512390] (-) TimerEvent: {}
+[13.612987] (-) TimerEvent: {}
+[13.719052] (-) TimerEvent: {}
+[13.820297] (-) TimerEvent: {}
+[13.920821] (-) TimerEvent: {}
+[14.021682] (-) TimerEvent: {}
+[14.124295] (-) TimerEvent: {}
+[14.227335] (-) TimerEvent: {}
+[14.327890] (-) TimerEvent: {}
+[14.431511] (-) TimerEvent: {}
+[14.532179] (-) TimerEvent: {}
+[14.635291] (-) TimerEvent: {}
+[14.735781] (-) TimerEvent: {}
+[14.839309] (-) TimerEvent: {}
+[14.939790] (-) TimerEvent: {}
+[15.040631] (-) TimerEvent: {}
+[15.144541] (-) TimerEvent: {}
+[15.245013] (-) TimerEvent: {}
+[15.346289] (-) TimerEvent: {}
+[15.447292] (-) TimerEvent: {}
+[15.548307] (-) TimerEvent: {}
+[15.649291] (-) TimerEvent: {}
+[15.749783] (-) TimerEvent: {}
+[15.850285] (-) TimerEvent: {}
+[15.951637] (-) TimerEvent: {}
+[16.053287] (-) TimerEvent: {}
+[16.154283] (-) TimerEvent: {}
+[16.255283] (-) TimerEvent: {}
+[16.355735] (-) TimerEvent: {}
+[16.456664] (-) TimerEvent: {}
+[16.558291] (-) TimerEvent: {}
+[16.660135] (-) TimerEvent: {}
+[16.763052] (-) TimerEvent: {}
+[16.866843] (-) TimerEvent: {}
+[16.968316] (-) TimerEvent: {}
+[17.068793] (-) TimerEvent: {}
+[17.170298] (-) TimerEvent: {}
+[17.270791] (-) TimerEvent: {}
+[17.371287] (-) TimerEvent: {}
+[17.472289] (-) TimerEvent: {}
+[17.575296] (-) TimerEvent: {}
+[17.676327] (-) TimerEvent: {}
+[17.776783] (-) TimerEvent: {}
+[17.878431] (-) TimerEvent: {}
+[17.979690] (-) TimerEvent: {}
+[18.082510] (-) TimerEvent: {}
+[18.184291] (-) TimerEvent: {}
+[18.284797] (-) TimerEvent: {}
+[18.388536] (-) TimerEvent: {}
+[18.489884] (-) TimerEvent: {}
+[18.592477] (-) TimerEvent: {}
+[18.692984] (-) TimerEvent: {}
+[18.793498] (-) TimerEvent: {}
+[18.895503] (-) TimerEvent: {}
+[18.996047] (-) TimerEvent: {}
+[19.096547] (-) TimerEvent: {}
+[19.197006] (-) TimerEvent: {}
+[19.297518] (-) TimerEvent: {}
+[19.397991] (-) TimerEvent: {}
+[19.499294] (-) TimerEvent: {}
+[19.599781] (-) TimerEvent: {}
+[19.701290] (-) TimerEvent: {}
+[19.801772] (-) TimerEvent: {}
+[19.902288] (-) TimerEvent: {}
+[20.003241] (-) TimerEvent: {}
+[20.106480] (-) TimerEvent: {}
+[20.207119] (-) TimerEvent: {}
+[20.307762] (-) TimerEvent: {}
+[20.408418] (-) TimerEvent: {}
+[20.511577] (-) TimerEvent: {}
+[20.612094] (-) TimerEvent: {}
+[20.712641] (-) TimerEvent: {}
+[20.815509] (-) TimerEvent: {}
+[20.915982] (-) TimerEvent: {}
+[21.016483] (-) TimerEvent: {}
+[21.118476] (-) TimerEvent: {}
+[21.218959] (-) TimerEvent: {}
+[21.319587] (-) TimerEvent: {}
+[21.422665] (-) TimerEvent: {}
+[21.523139] (-) TimerEvent: {}
+[21.623629] (-) TimerEvent: {}
+[21.725450] (-) TimerEvent: {}
+[21.825906] (-) TimerEvent: {}
+[21.928495] (-) TimerEvent: {}
+[22.028990] (-) TimerEvent: {}
+[22.132534] (-) TimerEvent: {}
+[22.233391] (-) TimerEvent: {}
+[22.334222] (-) TimerEvent: {}
+[22.434992] (-) TimerEvent: {}
+[22.537485] (-) TimerEvent: {}
+[22.637957] (-) TimerEvent: {}
+[22.738448] (-) TimerEvent: {}
+[22.839283] (-) TimerEvent: {}
+[22.941477] (-) TimerEvent: {}
+[23.042269] (-) TimerEvent: {}
+[23.145471] (-) TimerEvent: {}
+[23.246076] (-) TimerEvent: {}
+[23.346722] (-) TimerEvent: {}
+[23.448485] (-) TimerEvent: {}
+[23.550483] (-) TimerEvent: {}
+[23.653286] (-) TimerEvent: {}
+[23.753736] (-) TimerEvent: {}
+[23.854662] (-) TimerEvent: {}
+[23.955584] (-) TimerEvent: {}
+[24.057666] (-) TimerEvent: {}
+[24.158146] (-) TimerEvent: {}
+[24.258997] (-) TimerEvent: {}
+[24.362478] (-) TimerEvent: {}
+[24.463401] (-) TimerEvent: {}
+[24.564290] (-) TimerEvent: {}
+[24.665847] (-) TimerEvent: {}
+[24.768478] (-) TimerEvent: {}
+[24.868948] (-) TimerEvent: {}
+[24.970272] (-) TimerEvent: {}
+[25.070739] (-) TimerEvent: {}
+[25.173502] (-) TimerEvent: {}
+[25.274395] (-) TimerEvent: {}
+[25.376309] (-) TimerEvent: {}
+[25.479509] (-) TimerEvent: {}
+[25.580439] (-) TimerEvent: {}
+[25.684429] (-) TimerEvent: {}
+[25.784838] (-) TimerEvent: {}
+[25.885292] (-) TimerEvent: {}
+[25.986181] (-) TimerEvent: {}
+[26.087067] (-) TimerEvent: {}
+[26.188463] (-) TimerEvent: {}
+[26.291724] (-) TimerEvent: {}
+[26.392154] (-) TimerEvent: {}
+[26.494420] (-) TimerEvent: {}
+[26.594902] (-) TimerEvent: {}
+[26.696283] (-) TimerEvent: {}
+[26.796719] (-) TimerEvent: {}
+[26.899609] (-) TimerEvent: {}
+[27.000054] (-) TimerEvent: {}
+[27.100528] (-) TimerEvent: {}
+[27.201429] (-) TimerEvent: {}
+[27.302380] (-) TimerEvent: {}
+[27.402985] (-) TimerEvent: {}
+[27.504546] (-) TimerEvent: {}
+[27.607492] (-) TimerEvent: {}
+[27.707914] (-) TimerEvent: {}
+[27.808322] (-) TimerEvent: {}
+[27.908746] (-) TimerEvent: {}
+[28.009157] (-) TimerEvent: {}
+[28.110457] (-) TimerEvent: {}
+[28.212493] (-) TimerEvent: {}
+[28.313288] (-) TimerEvent: {}
+[28.415612] (-) TimerEvent: {}
+[28.516347] (-) TimerEvent: {}
+[28.568164] (viz_package_cpp2) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable wheel_subscriber\x1b[0m\n'}
+[28.617293] (-) TimerEvent: {}
+[28.717910] (-) TimerEvent: {}
+[28.820539] (-) TimerEvent: {}
+[28.921074] (-) TimerEvent: {}
+[29.022813] (-) TimerEvent: {}
+[29.125541] (-) TimerEvent: {}
+[29.219624] (viz_package_cpp2) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable ps2_control_node\x1b[0m\n'}
+[29.225686] (-) TimerEvent: {}
+[29.326384] (-) TimerEvent: {}
+[29.427191] (-) TimerEvent: {}
+[29.527691] (-) TimerEvent: {}
+[29.628140] (-) TimerEvent: {}
+[29.706944] (viz_package_cpp2) StdoutLine: {'line': b'[ 85%] Built target wheel_subscriber\n'}
+[29.728289] (-) TimerEvent: {}
+[29.828771] (-) TimerEvent: {}
+[29.932518] (-) TimerEvent: {}
+[30.033016] (-) TimerEvent: {}
+[30.133984] (-) TimerEvent: {}
+[30.235434] (-) TimerEvent: {}
+[30.336665] (-) TimerEvent: {}
+[30.438475] (-) TimerEvent: {}
+[30.538895] (-) TimerEvent: {}
+[30.627022] (viz_package_cpp2) StdoutLine: {'line': b'[ 85%] Built target ps2_control_node\n'}
+[30.639041] (-) TimerEvent: {}
+[30.740080] (-) TimerEvent: {}
+[30.840897] (-) TimerEvent: {}
+[30.942137] (-) TimerEvent: {}
+[31.042662] (-) TimerEvent: {}
+[31.143118] (-) TimerEvent: {}
+[31.189640] (viz_package_cpp2) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable wheel_publisher\x1b[0m\n'}
+[31.243282] (-) TimerEvent: {}
+[31.344429] (-) TimerEvent: {}
+[31.446025] (-) TimerEvent: {}
+[31.548129] (-) TimerEvent: {}
+[31.649007] (-) TimerEvent: {}
+[31.750180] (-) TimerEvent: {}
+[31.851735] (-) TimerEvent: {}
+[31.952466] (-) TimerEvent: {}
+[32.052978] (-) TimerEvent: {}
+[32.153789] (-) TimerEvent: {}
+[32.236562] (viz_package_cpp2) StdoutLine: {'line': b'[ 92%] Built target wheel_publisher\n'}
+[32.253916] (-) TimerEvent: {}
+[32.354666] (-) TimerEvent: {}
+[32.455939] (-) TimerEvent: {}
+[32.556535] (-) TimerEvent: {}
+[32.657040] (-) TimerEvent: {}
+[32.757922] (-) TimerEvent: {}
+[32.858318] (-) TimerEvent: {}
+[32.959276] (-) TimerEvent: {}
+[33.062287] (-) TimerEvent: {}
+[33.162808] (-) TimerEvent: {}
+[33.263533] (-) TimerEvent: {}
+[33.363946] (-) TimerEvent: {}
+[33.464555] (-) TimerEvent: {}
+[33.564957] (-) TimerEvent: {}
+[33.665443] (-) TimerEvent: {}
+[33.669474] (viz_package_cpp2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable move_node\x1b[0m\n'}
+[33.765577] (-) TimerEvent: {}
+[33.866121] (-) TimerEvent: {}
+[33.966707] (-) TimerEvent: {}
+[34.067678] (-) TimerEvent: {}
+[34.168189] (-) TimerEvent: {}
+[34.268707] (-) TimerEvent: {}
+[34.369684] (-) TimerEvent: {}
+[34.470621] (-) TimerEvent: {}
+[34.571062] (-) TimerEvent: {}
+[34.671587] (-) TimerEvent: {}
+[34.676030] (viz_package_cpp2) StdoutLine: {'line': b'[100%] Built target move_node\n'}
+[34.700257] (viz_package_cpp2) CommandEnded: {'returncode': 0}
+[34.701560] (viz_package_cpp2) JobProgress: {'identifier': 'viz_package_cpp2', 'progress': 'install'}
+[34.720902] (viz_package_cpp2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2'], 'cwd': '/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'maximiliano', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/maximiliano', 'OLDPWD': '/home/maximiliano/ROS/prueba_proyecto/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2642', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=df71ffc24f4127e064368b9b692628eb', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'maximiliano', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'maximiliano', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/maximiliano/.cabal/bin:/home/maximiliano/.ghcup/bin:/home/maximiliano/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/maximiliano-ThinkPad-T460s:@/tmp/.ICE-unix/2642,unix/maximiliano-ThinkPad-T460s:/tmp/.ICE-unix/2642', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bc8e578b_a193_4a83_95fe_eb563790d8a7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8NUCG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.236', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/maximiliano/ROS/prueba_proyecto/build/viz_package_cpp2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=df71ffc24f4127e064368b9b692628eb', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[34.738604] (viz_package_cpp2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.739268] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/viz_node\n'}
+[34.742370] (viz_package_cpp2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/viz_node" to ""\n'}
+[34.742849] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/move_node\n'}
+[34.753069] (viz_package_cpp2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/move_node" to ""\n'}
+[34.753714] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/circle_control_node\n'}
+[34.756933] (viz_package_cpp2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/circle_control_node" to ""\n'}
+[34.757554] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_joy_node\n'}
+[34.767864] (viz_package_cpp2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_joy_node" to ""\n'}
+[34.768462] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_control_node\n'}
+[34.771724] (-) TimerEvent: {}
+[34.779374] (viz_package_cpp2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/ps2_control_node" to ""\n'}
+[34.779986] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_publisher\n'}
+[34.790266] (viz_package_cpp2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_publisher" to ""\n'}
+[34.790866] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_subscriber\n'}
+[34.799588] (viz_package_cpp2) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/lib/viz_package_cpp2/wheel_subscriber" to ""\n'}
+[34.800141] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch\n'}
+[34.800610] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_move_paquito.py\n'}
+[34.801328] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_ps2_paquito.py\n'}
+[34.801891] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_ps2.py\n'}
+[34.802464] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch.py\n'}
+[34.802963] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_bridge.py\n'}
+[34.803428] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/launch/viz_launch_paquito.py\n'}
+[34.803736] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf\n'}
+[34.804196] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf/paquito.urdf\n'}
+[34.804657] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/urdf/robot.urdf\n'}
+[34.804969] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/rviz\n'}
+[34.805309] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/rviz/panel.rviz\n'}
+[34.805924] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/package_run_dependencies/viz_package_cpp2\n'}
+[34.806656] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/parent_prefix_path/viz_package_cpp2\n'}
+[34.807666] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/ament_prefix_path.sh\n'}
+[34.808620] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/ament_prefix_path.dsv\n'}
+[34.809095] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/path.sh\n'}
+[34.809671] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/environment/path.dsv\n'}
+[34.810370] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.bash\n'}
+[34.810822] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.sh\n'}
+[34.811181] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.zsh\n'}
+[34.811566] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/local_setup.dsv\n'}
+[34.811898] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/package.dsv\n'}
+[34.812254] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/ament_index/resource_index/packages/viz_package_cpp2\n'}
+[34.812601] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/cmake/viz_package_cpp2Config.cmake\n'}
+[34.812925] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/cmake/viz_package_cpp2Config-version.cmake\n'}
+[34.813454] (viz_package_cpp2) StdoutLine: {'line': b'-- Installing: /home/maximiliano/ROS/prueba_proyecto/install/viz_package_cpp2/share/viz_package_cpp2/package.xml\n'}
+[34.815106] (viz_package_cpp2) CommandEnded: {'returncode': 0}
+[34.863238] (viz_package_cpp2) JobEnded: {'identifier': 'viz_package_cpp2', 'rc': 0}
+[34.865050] (-) EventReactorShutdown: {}
